@@ -21,7 +21,15 @@ end
 
 puts groceries[1]
 
-puts groceries.sort
+puts astlist groceries.sort
+
+groceries.delete_at(3)
+
+puts astlist groceries
+
+
+
+
 
 
 
