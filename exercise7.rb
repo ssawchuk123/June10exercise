@@ -30,6 +30,13 @@ students.delete(:cohort2)
 
 cohort2 students
 
+total = 0
+students.each do |key, value|
+	total += value
+end
+puts total
+
+
 
 
 
